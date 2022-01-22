@@ -1,0 +1,71 @@
+.container{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+        border: 2px solid rgba(80, 76, 76, 0.774);
+        box-shadow: 2px 4px 3px gray;
+    
+}
+
+.subcon{
+    display: flex;
+  
+    justify-content: space-between;
+}
+
+.bil{
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    padding: 5px;
+    border:2px solid gray ;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bil_hasil{
+    width: 280px;
+    height: 50px;
+    font-size: large;
+    padding: 5px;
+    border:2px solid gray ;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.opsi{
+    width:50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.kirim{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+
+@media only screen and (max-width:576px) {
+    .container{
+        width:400px;
+        height: auto;
+        margin-top: 100px;
+        border-radius: 5px;
+        border: 2px solid rgba(80, 76, 76, 0.774);
+        box-shadow: 2px 4px 3px gray;
+    }
+}
